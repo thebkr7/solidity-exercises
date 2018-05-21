@@ -7,7 +7,7 @@ contract HelloWorldTest {
     HelloWorld helloWorld = new HelloWorld();
 
     function testReturningHelloWorld() public {
-        Assert.equal(keccak256(helloWorld.greet()), keccak256("Hello, World!"),
-            "Returned value isn't a \"Hello, World!\" string");
+        Assert.equal(keccak256(helloWorld.greet()), keccak256("Hola, Mundo!"),
+            "Returned value isn't a \"Hola, Mundo!\" string");
     }
 }
