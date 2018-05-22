@@ -16,7 +16,7 @@ npm install truffle@4.1.7 -g
 7. Returning Values
 8. Ownable
 9. Payable
-10. Deposit
+- [x] 10. Deposit
 11. Re-entrancy
 12. Re-entrancy Fix
 13. Timed Voting

@@ -43,7 +43,7 @@ contract Deposit is Ownable {
         return true;
     }
 
-    function() public payable{
+    function() private payable{
     // I dont understand the purpose of this one :)
     }
     
