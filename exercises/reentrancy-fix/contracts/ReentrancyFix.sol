@@ -5,18 +5,21 @@ import "./Balances.sol";
 
 contract SecureBalancesWithCallValue is Balances {
     function withdraw() public {
-        // change code so it is not vulnerable using call.value
+        balances[msg.sender] = 0;
+        msg.sender.call.value(balances[msg.sender])();
     }
 }
 
 contract SecureBalancesWithSend is Balances {
     function withdraw() public {
         // change code so it is not vulnerable using send
+        msg.sender.send(balances[msg.sender]);
     }
 }
 
 contract SecureBalancesWithTransfer is Balances {
     function withdraw() public {
         // change code so it is not vulnerable using transfer
+        msg.sender.transfer(balances[msg.sender]);
     }
 }
