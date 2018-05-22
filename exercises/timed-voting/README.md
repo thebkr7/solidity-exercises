@@ -13,7 +13,7 @@ You can use time suffixes that makes is easier to work with time.
 1 weeks          // 604 800
 ```
 
-Gramma is a little poor, but it comes in handy nonetheless.
+Grammar is a little poor, but it comes in handy nonetheless.
 
 ## Measuring Time
 
