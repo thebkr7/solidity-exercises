@@ -8,5 +8,6 @@ contract UseForType {
 
     function add(uint _a, uint _b) public pure returns (uint) {
         // implement addition calling add directly on uint variable
+        return _a.add(_b);
     }
 }
