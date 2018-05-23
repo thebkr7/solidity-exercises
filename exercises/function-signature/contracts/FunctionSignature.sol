@@ -7,7 +7,9 @@ contract FunctionSignature {
     }
 
     function isMoreThanFive(uint _value) public returns (bool) {
-        // return true if calling moreThanFive succeeded and false if it failed
+        // return true if calling moreThanFive succeeded and false if it failed     
         // create function signature and pass _value as an argument
+        return address(this).call(bytes4(keccak256("moreThanFive(uint256)")), _value);
+        
     }
 }

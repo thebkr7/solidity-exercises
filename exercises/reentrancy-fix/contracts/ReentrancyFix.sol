@@ -5,8 +5,8 @@ import "./Balances.sol";
 
 contract SecureBalancesWithCallValue is Balances {
     function withdraw() public {
-        balances[msg.sender] = 0;
-        msg.sender.call.value(balances[msg.sender])();
+        //balances[msg.sender] = 0;
+        msg.sender.call.value(balances[msg.sender]).gas(2300)();
     }
 }
 

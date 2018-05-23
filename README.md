@@ -23,3 +23,8 @@ npm install truffle@4.1.7 -g
 - [ ] 14. Function Signatures
 - [ ] 15. Events
 - [ ] 16. Destruct
+- [ ] 17. Enum
+- [ ] 18. first-library
+- [ ] 19. Interface
+- [ ] 20. Third party libraries
+- [ ] 21. Visibility
