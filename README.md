@@ -25,6 +25,6 @@ npm install truffle@4.1.7 -g
 - [x] 16. Destruct
 - [x] 17. Enum
 - [x] 18. first-library
-- [ ] 19. Interface
-- [ ] 20. Third party libraries
-- [ ] 21. Visibility
+- [x] 19. Interface
+- [x] 20. Third party libraries
+- [x] 21. Visibility

@@ -8,5 +8,6 @@ contract UsingSafeMath {
 
     function sub(uint _a, uint _b) public pure returns (uint) {
         // use sub function provided by SafeMath to throw on underflow
+        return _a.sub(_b);
     }
 }

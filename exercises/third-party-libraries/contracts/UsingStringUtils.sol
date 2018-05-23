@@ -7,10 +7,11 @@ contract UsingStringUtils {
     using strings for *;
 
     function length(string _text) public pure returns (uint) {
-        // return length of the string
+        return _text.toSlice().len();
     }
 
     function greetings(string _name) public pure returns (string) {
         // concat name so returned string is: Hello, <name>!
+        return "Hello, ".toSlice().concat(_name.toSlice()).toSlice().concat("!".toSlice());
     }
 }
