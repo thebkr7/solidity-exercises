@@ -22,7 +22,7 @@ npm install truffle@4.1.7 -g
 - [x] 13. Timed Voting
 - [x] 14. Function Signatures
 - [x] 15. Events
-- [ ] 16. Destruct
+- [x] 16. Destruct
 - [ ] 17. Enum
 - [ ] 18. first-library
 - [ ] 19. Interface
