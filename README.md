@@ -20,8 +20,8 @@ npm install truffle@4.1.7 -g
 - [x] 11. Re-entrancy
 - [x] 12. Re-entrancy Fix
 - [x] 13. Timed Voting
-- [ ] 14. Function Signatures
-- [ ] 15. Events
+- [x] 14. Function Signatures
+- [x] 15. Events
 - [ ] 16. Destruct
 - [ ] 17. Enum
 - [ ] 18. first-library
